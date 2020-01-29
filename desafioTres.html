@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Desafio Tres</title>
+</head>
+<body>
+  <div class="contenedor">
+    <h4 class="titulos">Registro de persona</h4>
+    <form class="formulario" action="index.html" method="post">
+      <div >
+        <label for="txtNombre">Ingrese el Nombre de la persona</label>
+        <input type="text" id="txtNombre">
+        <label for="txtEdad">Ingrese la edad de la persona</label>
+        <input type="text" id="txtEdad">
+      </div>
+    </form>
+    <button type="button" id="botonRegistrar" class="button" name="button">Registrar Estudiante</button>
+    <button type="button" id="botonLista"     class="button" name="button">Mostrar Lista</button>
+    <button type="button" id="botonMayoresDeEdad"  class="button" name="button">Mostrar Los mayores de Edad</button>
+    <h4>Listado de Estudiantes</h4>
+    <table>
+      <thead>
+        <tr>
+          <td>Nombre</td>
+          <td>Edad</td>
+        </tr>
+      </thead>
+      <tbody id="datos-tabla">
+        <tr>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <script type="text/javascript" src="./js/js.js"></script>
+</body>
+</html>

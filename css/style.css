@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+  color: rgb(249, 249, 249);
+}
+body{
+  background: linear-gradient(135deg, rgb(34, 35, 143, .8), white);
+  height: 1vh;
+}
+.contenedor{
+  border: 2px solid black;
+  display: block;
+  width: 30%;
+  margin: 10% 35%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(138, 143, 144);
+  background: rgb(244, 187, 90);
+}
+.contenedor h4{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+.contenedor label{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 0 40px;
+}
+.contenedor input{
+  display: block;
+  width: 70%;
+  height: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(138, 143, 144);
+  color: black;
+  padding-left: 2%;
+}
+
+.contenedor button{
+  display: block;
+  width: 60%;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(138, 143, 144);
+  background: rgb(184, 145, 240);
+  cursor: pointer;
+}
+.contenedor table{
+  width: 80%;
+  text-align: center;
+  border: 1px solid red;
+  margin-left: 10%;
+  margin-right: 10%;
+}
