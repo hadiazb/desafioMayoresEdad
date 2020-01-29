@@ -13,7 +13,7 @@ body{
   border: 2px solid black;
   display: block;
   width: 30%;
-  margin: 10% 35%;
+  margin: 3% 35%;
   border-radius: 5px;
   box-shadow: 0 0 10px rgb(138, 143, 144);
   background: rgb(244, 187, 90);
@@ -58,9 +58,11 @@ body{
   cursor: pointer;
 }
 .contenedor table{
-  width: 80%;
+  width: 90%;
   text-align: center;
   border: 1px solid red;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
