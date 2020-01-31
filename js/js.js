@@ -12,6 +12,7 @@ var tablaMayores = [
 
 function cargarEventos(){
   document.getElementById("botonRegistrar").addEventListener( "click", nuevaPersona, false);
+  document.getElementById("botonRegistrar").addEventListener( "click", limpiar, false);
   document.getElementById("botonLista").addEventListener( "click", mostrarTabla, false);
   // document.getElementById("botonLista").addEventListener( "click", mostrarMayores, false);
 }
@@ -21,10 +22,6 @@ function nuevaPersona(){
   var introEdad   = parseFloat(document.getElementById("txtEdad").value);
   var nuevaPersona = { "nombre": introNombre, "edad": introEdad };
   tabla.push(nuevaPersona);
-  var limpiar = document.getElementById('txtNombre').value
-  limpiar.innerHTML = ""
-
-
 }
 
 function mostrarTabla(){
@@ -34,4 +31,8 @@ function mostrarTabla(){
     tablaLlena += "<tr><td>" + tabla[i].nombre + "</td><td>" + tabla[i].edad + "</td></tr>" ;
   }
   cuerpoTabla.innerHTML = tablaLlena;
+}
+function limpiar() {
+    document.getElementById("txtNombre").value = "";
+    document.getElementById("txtEdad").value = "";
 }
