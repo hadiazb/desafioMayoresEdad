@@ -45,6 +45,7 @@ body{
   box-shadow: 0 0 10px rgb(138, 143, 144);
   color: black;
   padding-left: 2%;
+  outline: none;
 }
 
 .contenedor button{
@@ -59,6 +60,7 @@ body{
   background: rgb(184, 145, 240);
   cursor: pointer;
   font-size: .7em;
+  outline: none;
 }
 .contenedor table{
   width: 90%;
