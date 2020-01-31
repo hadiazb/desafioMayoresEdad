@@ -24,6 +24,7 @@ body{
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0 20px;
+  font-size: .9em;
 }
 .contenedor label{
   display: block;
@@ -32,6 +33,7 @@ body{
   margin-top: 3px;
   margin-bottom: 3px;
   padding: 0 40px;
+  font-size: .8em;
 }
 .contenedor input{
   display: block;
@@ -56,13 +58,18 @@ body{
   box-shadow: 0 0 10px rgb(138, 143, 144);
   background: rgb(184, 145, 240);
   cursor: pointer;
+  font-size: .7em;
 }
 .contenedor table{
   width: 90%;
-  text-align: center;
-  border: 1px solid red;
+  text-align: left;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: .8em;
+}
+.contenedor table thead tr td{
+  font-size: .9em;
+  font-style: oblique;
 }
